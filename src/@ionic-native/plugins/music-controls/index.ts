@@ -81,8 +81,6 @@ export interface MusicControlsOptions {
  *  });
  *
  *  this.musicControls.subscribe().subscribe(action => {
- *
- *    function events(action) {
  *      const message = JSON.parse(action).message;
  *      	switch(message) {
  *      		case 'music-controls-next':
